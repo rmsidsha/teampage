@@ -7,7 +7,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use App\User;
 
-class TestController extends Controller
+class LoginController extends Controller
 {
     /**
      * Display a listing of the resource.

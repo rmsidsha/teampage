@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 Route::resources([
     '/register' => 'UsersController',
-    '/login' => 'TestController',
+    '/login' => 'LoginController',
     '/home' => 'HomeController',
 ]);
 // Route::resource('/register', 'UsersController');
